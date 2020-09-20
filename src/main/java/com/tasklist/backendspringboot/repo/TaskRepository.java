@@ -8,7 +8,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 import com.tasklist.backendspringboot.entity.Task;
 
-// принцип ООП: абстракция-реализация - здесь описываем все доступные способы доступа к данным
+
 @Repository
 public interface TaskRepository extends JpaRepository<Task, Long> {
     
